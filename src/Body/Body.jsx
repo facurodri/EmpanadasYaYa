@@ -1,12 +1,17 @@
 import React from 'react';
-import { Jumbotron } from 'react-bootstrap';
+import Card from './Card';
 
 const Body = () => {
     return (
     <div>
-        <Jumbotron fluid className= "main">
-        <h2>Welcome To the page</h2>
-        </Jumbotron>
+        <img src="./images/empanadas2.jpg" className="img-fluid" alt="Empanadas Main" />
+        <h2 className="title">Empanadas</h2>
+        <div className="container">
+       <Card />
+       <Card />
+       <Card />
+        </div>
+        <br/>
         </div>
     );
 }

@@ -1,13 +1,12 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
-import './Header.css';
+import React from "react";
+// import { Navbar } from "react-bootstrap";
+import "./Header.css";
 
 const Header = () => {
-    return (
-    <div className="header">
-        <h2> Empanadas de la Yaya</h2>
-        <Button> Empanadas </Button>
-    </div>
-    );
-}
+  return (
+    <nav className="navbar navbar-dark">
+      <h4 className="navbar-brand"> Empanadas Gol</h4>
+    </nav>
+  );
+};
 export default Header;

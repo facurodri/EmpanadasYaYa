@@ -1,3 +1,4 @@
-.header {
-    background: red;
+.navbar-brand{
+    background-color: lightblue;
+    border-radius: 15px;
 }

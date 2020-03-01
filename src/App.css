@@ -1,15 +1,34 @@
 .App {
   text-align: center;
 }
-.jumbotron {
-  background-color: gray !important;
-  color:#ff0000;
-  height: 35em;
+.jumbotron-fluid {
+  height: 20em !important;
 }
-
+.img {
+  /* width: 70em !important; */
+  height: 25em;
+}
+.card {
+  background: red;
+  width: 18em;
+  margin: 2em;
+  box-shadow: 1px 1px 3px gray;
+  float: left;
+  border-radius: 10px;
+}
+.title {
+  font-style: italic;
+}
+.container {
+  
+  padding-left: 10em;
+  margin-right: 10em;
+  padding: 5px;
+}
 .footer {
-  background-attachment: fixed;
-  background: blue;
+  position: relative !important;
+  height: 3em;
+  padding-top: 5px;
 }
 /* .header {
   background-color: #282c34;
