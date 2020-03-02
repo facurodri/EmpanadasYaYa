@@ -1,18 +1,21 @@
-import React from 'react';
-import Card from './Card';
+import React from "react";
 
 const Body = () => {
-    return (
-    <div>
-        <img src="./images/empanadas2.jpg" className="img-fluid" alt="Empanadas Main" />
-        <h2 className="title">Empanadas</h2>
-        <div className="container">
-       <Card />
-       <Card />
-       <Card />
-        </div>
-        <br/>
-        </div>
-    );
-}
+  return (
+    <div className="jumbotron-fluid">
+      <img
+        src="./images/empanadas2.jpg"
+        className="jumboPic"
+        alt="Empanadas Main"
+      />
+      <row>
+      <h1 className="display-4">Empanadas Goal</h1>
+      <p className="lead">
+        The best homemade empanadas you will taste!
+      </p>
+      <hr className="my-4" />
+      </row>
+    </div>
+  );
+};
 export default Body;

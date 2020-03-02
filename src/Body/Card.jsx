@@ -3,10 +3,10 @@ import React from 'react';
 
 const Card = () => {
     return (
-        <div className="card">
+        <div className="col-lg-3 card">
             <img src="./images/empaCarne.jpg" className="card-img-top" alt="..." />
             <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">Empandas de Carne</p>
             </div>
             <br/>
             </div>
