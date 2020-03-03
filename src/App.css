@@ -45,9 +45,8 @@
   z-index: 3;
 }
 .logo {
-  width: 10em;
-  /* height: 10em; */
-  float: right;
+  width: 7em;
+  height: 7em;
 }
 .cardContainer {
   flex-direction: row;
