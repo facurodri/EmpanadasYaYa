@@ -31,12 +31,12 @@
 .title {
   font-style: italic;
 }
-.container {
+/* .container {
   padding-left: 10em;
   margin-right: 10em;
   padding: 5px;
-  /* flex-direction: row; */
-}
+  /* flex-direction: row; 
+}*/
 .footer {
   float: none;
 }
@@ -45,8 +45,8 @@
   z-index: 3;
 }
 .logo {
-  width: 7em;
-  height: 7em;
+  width: 3em;
+  height: 3em;
 }
 .cardContainer {
   flex-direction: row;
