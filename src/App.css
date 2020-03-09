@@ -1,20 +1,16 @@
+
 .App {
   text-align: center;
-  /* width: 100%; */
-  max-width: 100em;
+  max-width: 10em;
 }
-.jumbotron-fluid {
-  height: 20em !important;
-  margin-bottom: 23em;
-}
+
 .jumboPic {
-  height: 35em;
-  width: 100%;
+  margin: 4em;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+  font: text;
 }
-/* .img {
-  width: auto;
-  height: 25em;
-} */
 .card-img-top {
   width: auto;
   height: 15em;
@@ -28,15 +24,7 @@
   box-shadow: 1px 1px 3px black;
   border-radius: 5px;
 }
-.title {
-  font-style: italic;
-}
-/* .container {
-  padding-left: 10em;
-  margin-right: 10em;
-  padding: 5px;
-  /* flex-direction: row; 
-}*/
+
 .footer {
   float: none;
 }
@@ -44,12 +32,14 @@
   text-align: center;
   z-index: 3;
 }
-.logo {
-  width: 3em;
-  height: 3em;
-}
 .cardContainer {
   flex-direction: row;
   text-align: center;
   padding-left: 10em;
+}
+.mainEmpanadasPic {
+  background-image: url("./images/empanadas2.jpg");
+  width: 100%;
+  height:35em;
+  background-size: cover;
 }

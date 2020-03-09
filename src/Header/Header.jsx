@@ -4,27 +4,23 @@ import "./Header.css";
 import { FiMenu } from "react-icons/fi";
 
 export const Header = () => (
-    <Navbar className="container-fluid">
+    <Navbar className="container" bg="light">
       <Navbar.Brand href="/">
-        {/* <img
-          src="./images/FullSizeRender.jpeg"
-          className="navbar-brand logo"
-          alt="logo"
-        ></img> */}
+       <img className="logo"/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navToggle" />
        <Navbar.Collapse id="navToggle">
          <Nav className="ml-auto links">
           <Nav.Item>
-            <Nav.Link href="/">About 
+            <Nav.Link href="/about">About 
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/">Menu 
+            <Nav.Link href="/menu">Menu 
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/">Contact
+            <Nav.Link href="/contact">Contact
             </Nav.Link>
           </Nav.Item>
          </Nav>

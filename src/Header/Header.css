@@ -1,3 +1,10 @@
 .nav-link:hover {
    color:rgb(168, 0, 0) !important;
 }
+.logo {
+   color: red;
+   background-image: url('../images/FullSizeRender.jpeg');
+   height:4em;
+   width: 5em;   
+   background-size: cover;
+}
