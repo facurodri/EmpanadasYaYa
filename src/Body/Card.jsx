@@ -1,16 +1,17 @@
-import React from 'react';
-// import { Card } from 'react-bootstrap';
+import React from "react";
+import { Card, Img, Text } from "react-bootstrap";
 
-const Card = () => {
-    return (
-        <div className="col-lg-3 card">
-            <img src="./images/empaCarne.jpg" className="card-img-top" alt="..." />
-            <div className="card-body">
-            <p className="card-text">Empandas de Carne</p>
-            </div>
-            <br/>
-            </div>
-            );
+const EmpanadaCard = () => {
+  return (
+    <Card className="text-center">
+      <Card.Img  variant="top" className="cardPic" />
+      <Card.Body className="card-body">
+        <Card.Title className="card-text">Empandas de Carne</Card.Title>
+        <Card.Text> Golden brown beef empanadas</Card.Text>
+      </Card.Body>
+      <br />
+    </Card>
+  );
 };
 
-export default Card;
+export default EmpanadaCard;

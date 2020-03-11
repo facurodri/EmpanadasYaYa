@@ -4,10 +4,10 @@ import "./Header.css";
 import { FiMenu } from "react-icons/fi";
 
 export const Header = () => (
-    <Navbar className="container" bg="light">
-      <Navbar.Brand href="/">
+    <Navbar fluid text-white>
+      {/* <Navbar.Brand href="/">
        <img className="logo"/>
-      </Navbar.Brand>
+      </Navbar.Brand> */}
       <Navbar.Toggle aria-controls="navToggle" />
        <Navbar.Collapse id="navToggle">
          <Nav className="ml-auto links">
